@@ -107,22 +107,22 @@
 # 联系我
 **如果脚本存在Bug或者有任何疑问，欢迎邮件或留言**</br>
 <li>
-    <IMG style="width: 12px; height: 12px" src="https://blog.csdn.net/favicon.ico">
+    <IMG style="width: 8px; height: 8px" src="https://blog.csdn.net/favicon.ico">
     <a target="view_window" href="https://blog.csdn.org/byb123/">CSDN - 王三三</a>
 </li>
 <li>
-    <IMG style="width: 16px; height: 16px" src="https://www.wangsansan.com/favicon.ico">
+    <IMG style="width: 8px; height: 8px" src="https://www.wangsansan.com/favicon.ico">
     <a target="view_window" href="https://www.wangsansan.com">Blog - 王三三</a>
 </li>
 <li>
-    <IMG style="width: 16px; height: 16px" src="https://gitee.com/favicon.ico">
+    <IMG style="width: 8px; height: 8px" src="https://gitee.com/favicon.ico">
     <a target="view_window" href="https://gitee.com/w0x0021">Gitee - w0x0021</a>
 </li>
 <li>
-    <IMG style="width: 16px; height: 16px" src="https://github.com/favicon.ico">
+    <IMG style="width: 8px; height: 8px" src="https://github.com/favicon.ico">
     <a target="view_window" href="https://github.com/w0x0021">Github - w0x0021</a>
 </li>
 <li>
-    <IMG style="width: 16px; height: 16px" src="https://www.wangsansan.com/img/other/gmail.ico">
+    <IMG style="width: 8px; height: 8px" src="https://www.wangsansan.com/img/other/gmail.ico">
     <a target="view_window" href="mailto:w0x0021@gmail.com">GMail - w0x0021@gmail.com</a>
 </li>
