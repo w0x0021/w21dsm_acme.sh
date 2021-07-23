@@ -7,7 +7,7 @@ export W21_ACME_DOMAIN_ARR=("example1.domain.com" "example2.domain.com")
 export W21_ACME_EMAIL="Your@mail.com"
 
 # ISP Service
-# See more：
+# See more: 
 #   https://github.com/acmesh-official/acme.sh/wiki/dnsapi
 export W21_ACME_DNS_ISP=dns_ali
 
