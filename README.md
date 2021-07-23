@@ -5,9 +5,9 @@
 
 # 解决的问题
   如果你也因为和我遇到相同的问题导致 **Let's Encrypt** 证书申请失败，**听一句劝！别踩坑！**</br>
-  **Download it! Run it!**</br>
-  **Download it! Run it!**</br>
-  **Download it! Run it!**</br>
+  **Download it! Run it!!**</br>
+  **Download it! Run it!!**</br>
+  **Download it! Run it!!**</br>
   - **1、群晖自带的 Let's Encrypt 申请失败问题**</br>
   - **2、使用 acme.sh 申请过程中 idn 指令不存在的问题**</br>
 
