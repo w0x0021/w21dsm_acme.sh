@@ -70,6 +70,11 @@ function CopyFile() {
     cp "/root/.acme.sh/$domain/$domain.key" "$CERT_PATH/pveproxy-ssl.key"
     cp "/root/.acme.sh/$domain/fullchain.cer" "$CERT_PATH/pveproxy-ssl.pem"
 
+    if [ ! -f "/etc/cron.d/w21AutoAcme" ]; then
+        echo "58 11 * * * root /root/tools/w21_acme/w21PVE_acme.sh" > /etc/cron.d/w21AutoAcme
+        crontab -u root /etc/cron.d/w21AutoAcme
+    fi
+
     echo "[-] Copy certificate finish."
 }
 
