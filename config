@@ -1,7 +1,7 @@
 # Domain list
 # eg.
 #   W21_ACME_DOMAIN_ARR=("My.domain1" "My.domain2")
-export W21_ACME_DOMAIN_ARR=("example1.domain.com" "example2.domain.com")
+export W21_ACME_DOMAIN_ARR=("example1.domain.com" "example2.domain.com.t")
 
 # Your email
 export W21_ACME_EMAIL="Your@mail.com"
