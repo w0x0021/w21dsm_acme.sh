@@ -19,9 +19,9 @@ ACME_SH_DIRNAME="acme.sh"
 ACME_SH_PATH="$ROOT_PATH/$ACME_SH_DIRNAME"
 ACME_SH_BIN="$ACME_SH_PATH/acme.sh"
 
+ACME_SH_INSTALL_PATH="/root/.acme.sh"
 DSM_CERT_PATH="/usr/syno/etc/certificate/_archive"
 DSM_CERT_INFO="$DSM_CERT_PATH/INFO"
-ACME_SH_INSTALL_PATH="/root/.acme.sh"
 
 W21_ACME_DOMAIN_LIST=""
 export PATH=$PATH:$ACME_SH_PATH:"$ROOT_PATH/lib/libidn/src"
@@ -126,8 +126,8 @@ function CopyFile() {
 
         # 写到系统配置
         echo "    [*] Set DSM certificate information."
-        dsm_cert_node="{\"$cert_dir_name\": {\"desc\": \"\", \"services\": []}}"
-        dsm_cert_new_file=$(echo "$(cat $DSM_CERT_INFO) $dsm_cert_node" | jq -s add)
+        dsm_cert_node="{\"$cert_dir_name\": {\"desc\": \"\"}}"                                  # 避免services属性将原来的值覆盖
+        dsm_cert_new_file=$(echo "$(cat $DSM_CERT_INFO) $dsm_cert_node" | jq -s '.[0]*.[1]')    # 修改json的合并机制
         echo $dsm_cert_new_file > $DSM_CERT_INFO
     done
     echo "[-] Copy certificate finish."
